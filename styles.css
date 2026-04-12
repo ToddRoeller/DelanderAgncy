@@ -611,6 +611,33 @@ h3 {
   font-size: 1.04rem;
 }
 
+.quote-art {
+  max-width: 520px;
+  margin: 28px auto 0;
+  padding: 20px 24px 12px;
+  border-radius: 26px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(234, 242, 251, 0.98));
+  border: 1px solid rgba(28, 66, 139, 0.08);
+  box-shadow: 0 18px 34px rgba(28, 66, 139, 0.08);
+}
+
+.quote-art-badge {
+  display: inline-flex;
+  margin-bottom: 8px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(225, 22, 49, 0.08);
+  color: var(--deep-red);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.quote-art svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .quote-section {
   max-width: 920px;
   margin: 0 auto;
