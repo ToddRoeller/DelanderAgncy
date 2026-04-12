@@ -492,6 +492,12 @@ h3 {
   color: var(--white);
 }
 
+.cta-section .eyebrow {
+  color: var(--navy);
+  background: rgba(255, 247, 236, 0.96);
+  box-shadow: 0 12px 24px rgba(17, 25, 40, 0.14);
+}
+
 .cta-section h2 {
   margin-bottom: 12px;
   max-width: 11ch;
