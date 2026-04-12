@@ -250,6 +250,18 @@ h3 {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 
+.cta-section .btn-light {
+  color: var(--navy);
+  background: #fff7ee;
+  border: 1px solid rgba(34, 49, 76, 0.16);
+}
+
+.cta-section .btn-ghost {
+  color: #fff9f2;
+  background: rgba(22, 34, 58, 0.34);
+  border: 1px solid rgba(255, 255, 255, 0.52);
+}
+
 .btn-outline:hover,
 .btn-light:hover {
   background: var(--white);
@@ -259,6 +271,14 @@ h3 {
 .btn-ghost:hover {
   background: rgba(255, 255, 255, 0.28);
   box-shadow: 0 16px 28px rgba(17, 25, 40, 0.18);
+}
+
+.cta-section .btn-light:hover {
+  background: #ffffff;
+}
+
+.cta-section .btn-ghost:hover {
+  background: rgba(22, 34, 58, 0.5);
 }
 
 .hero-tags {
